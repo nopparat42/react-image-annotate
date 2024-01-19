@@ -12,16 +12,16 @@ import IconButton from "@mui/material/IconButton"
 import ListItemSecondaryAction from "@mui/material/ListItemSecondaryAction"
 import UndoIcon from "@mui/icons-material/Undo"
 import moment from "moment"
-import { grey } from "@mui/material/colors"
+import { red } from "@mui/material/colors"
 import isEqual from "lodash/isEqual"
 import Box from "@mui/material/Box"
 
 const theme = createTheme()
 const useStyles = makeStyles((theme) => ({
   emptyText: {
-    fontSize: 14,
+    fontSize: 50,
     fontWeight: "bold",
-    color: grey[500],
+    color: red[500],
     textAlign: "center",
     padding: 20,
   },
